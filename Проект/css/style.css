@@ -139,6 +139,7 @@ a {
 
 .our_services{
    margin-top: 208px;
+   /* background-image: url(/src/img/bg_element.png); */
 }
 
 .our_services__title{
@@ -184,9 +185,6 @@ a {
    margin-bottom: 37px;
 }
 
-.left{
-   margin-left: 0;
-}
 
 .service__img{
    display: flex;
@@ -223,4 +221,91 @@ a {
    font-family: 'Mulish';
    font-weight: 700;
    font-size: 18px;
+}
+
+.description{
+   display: flex;
+   justify-content: center;
+   padding-top: 220px;
+   flex-wrap: wrap;
+}
+
+.leading .text{
+   width: 486px;
+   height: 388px;
+   margin-left: 92px;
+   margin-top: 50px;
+}
+
+.leading .text .text__info{
+   width: 450px;
+   height: 120px;
+}
+
+
+.download .text{
+   width: 478px;
+   height: 375px;
+   margin-top: 50px;
+}
+
+
+.download .text .text__info{
+   width: 420px;
+   height: 120px;
+}
+
+.find .text{
+   width: 420px;
+   height: 320px;
+   margin-left: 227px;
+   margin-top: 75px;
+}
+
+.find .text__button{
+   margin-top: 78px;
+}
+
+.text{
+   font-family: 'Mulish';
+}
+
+.text__title{
+   color: #462E6A;
+   font-weight: 700;
+   font-size: 36px;
+}
+
+.text__hr{
+   width: 56px;
+   height: 2px;
+   border-radius: 10px;
+   background-color: #000000;
+   margin-top: 26px;
+   margin-bottom: 31px;
+}
+
+.text__info{
+   color: #7D7987;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 30px;
+}
+
+.text__button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 200px;
+   height: 60px;
+   border: 1.4px #458FF6 solid;
+   border-radius: 55px;
+   color: #458FF6;
+   font-weight: 700;
+   font-size: 18px;
+   margin-top: 40px;
+}
+
+.text__button img{
+   margin-left: 14.79px;
 }
