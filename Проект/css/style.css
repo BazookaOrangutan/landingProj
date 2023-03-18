@@ -8,9 +8,6 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
-.header {
-   
-}
 
 .up{
    display: flex;
@@ -308,4 +305,148 @@ a {
 
 .text__button img{
    margin-left: 14.79px;
+}
+
+
+.reviews_container{
+   display: flex;
+}
+
+.reviews{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.review{
+   width: 1180.08px;
+   height: 487.65px;
+   font-family: 'Mulish';
+   font-weight: 700;
+   color: #FFFFFF;
+   background: linear-gradient(208.18deg, #6888C8 9.05%, #5A98F2 76.74%);
+   border-radius: 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.review__title{
+   font-size: 36px; 
+   padding: 73.43px 0 28.69px;
+}
+
+.review__hr{
+   width: 59px;
+   height: 2.29px;
+   background-color: #fff;
+   border-radius: 6px;
+}
+
+.review__description{
+   display: flex;
+}
+
+.avatar__name{
+   font-size: 22px;
+}
+
+.avatar__company{
+   font-weight: 400;
+   font-size: 18px;
+   opacity: 85%;
+}
+
+.review__text{
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 55px;
+   letter-spacing: 0.01em;
+   width: 442px;
+   height: 137px;
+}
+
+.switch{
+   display: flex;
+   padding-top: 48.19px;
+}
+
+.slider{
+   margin: 0 94.93px;
+}
+
+.footer{
+   background: linear-gradient(183.41deg, #6888C8 -8.57%, #5A98F2 82.96%);
+   color: #fff;
+   font-family: 'Mulish';
+}
+
+.footer__text{
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.footer__logo{
+   display: flex;
+   align-items: center;
+}
+
+.footer__logo__img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 42px;
+   height: 42px;
+   border-radius: 42px;
+   background-color: #fff;
+}
+
+.footer__logo__text{
+   font-size: 24px;
+   font-weight: 700;
+   margin-left: 12px;
+}
+
+.savior_care{
+   margin-top: 97px;
+}
+
+.savior_care__description{
+   font-family: 'Roboto';
+   font-size: 18px;
+   margin-top: 21px;
+   margin-bottom: 30px;
+   line-height: 27px;
+}
+
+.savior_care__text{
+   font-weight: 300;
+   font-size: 16px;
+}
+
+.footer__title{
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.footer__ol{
+   padding-top: 105px;
+}
+
+.footer__ol ol{
+   list-style-type: none;
+   line-height: 38px;
+}
+
+.footer__ol ol li a{
+   color: #fff;
+   font-weight: 300;
+   font-size: 18px;
+   text-decoration: none;
+}
+
+.footer__ol ol li a:hover{
+   text-decoration: underline;
 }
